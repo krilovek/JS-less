@@ -76,11 +76,22 @@ ul {
     margin-right: 15px;
 }
 .content{
-    font-size: 36px;
-    font-weight: 700;
     padding: 50px;
 }
 
+.content__title {
+    font-size: 26px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.content__text {
+    font-size: 24px;;
+}
+.content__text_yellow{
+    color: yellow;
+    font-size: 30px;
+}
 .main {
     background-color: cadetblue;
     grid-area: main;
